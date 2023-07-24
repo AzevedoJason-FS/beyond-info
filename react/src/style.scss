@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #020912; 
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+.App{
+    margin: auto;
+    max-width: 1200px;
+    margin-bottom: 4rem;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+header{
+background-repeat: no-repeat;
+min-height: 80px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+}
+
+.header-logo{
+    margin-left: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+#logo{
+    margin-top: -32px;
+    width: 32px;
+}
+
+#body-title{
+    font-size: 32px;
+    color: #3273FA;
+    padding-bottom: 20px;
+}
+
+#title{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+#sub-title{
+    margin: auto;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight:500;
+    max-width: 800px;
+}
+
+#sub-p{
+    font-size: 20px;
+    margin-top: 8rem;
+}
+
+.intro{
+    margin: auto;
+    text-align: center;
+    margin-top: 10rem;
+}
+
+#info-body{
+    font-size: 20px;
+    line-height: 140%;
+    max-width: 800px;
+    margin: auto;
+}
+
+#info-sub-body{
+    font-size: 20px;
+    line-height: 140%;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+#button{
+    background: #3273FA;
+    border: none;
+    font-size: 18px;
+    padding: 14px;
+    margin-top: 20px;
+    border-radius: 80px;
+    color: white;
+    cursor: pointer;
+    margin: 2rem 1rem;
+}
+
+.player-cards{
+    margin: auto;
+    text-align: center;
+    margin-top: 10rem;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.cards-show{
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+}
+
+#team-background{
+    position: absolute;
+    opacity: .3;
+    z-index: -1;
+}
+
+.tilt-card{
+    margin: auto;
+    margin: 1rem;
+}
+
+#player-card{
+    width: 260px;
+    object-fit: contain;
+    box-shadow: 0 48px 60px 0 rgba(2,14,26,.24);
+    -webkit-box-shadow: 0 48px 60px 0 rgba(2,14,26,.24);
+}
+
+#player-card-show{
+    width: 160px;
+    object-fit: contain;
+    box-shadow: 0 48px 60px 0 rgba(2,14,26,.24);
+    -webkit-box-shadow: 0 48px 60px 0 rgba(2,14,26,.24);
+}
+
+.tilt-card-select{
+    margin: auto;
+    margin: 1rem;
+}
+
+.how-it-works{
+    margin: auto;
+    text-align: center;
+    margin-top: 10rem;
+}
+
+#ranks{
+    width: 100%;
+    object-fit: cover;
+    margin-top: 4rem;
+    border-radius: 10px;
+}
+
+#background-step{
+    color: #020912;
+	font-size: 300px;
+    margin: 0 4rem 0 0;
+	-webkit-text-stroke: 1px rgba(255, 255, 255, 0.3);
+}
+
+footer{
+    background-color: #3273FA;
+    border-radius: 10px;
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 6rem;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+#footer-title{
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+#footer-subtitle{
+    font-size: 50px;
+    margin: 0;
+    color: #020912;
+    line-height: 40px;
+}
+
+#footer-subtitle2{
+    font-size: 20px;
+    margin: 0;
+    color: #020912;
+    font-weight: 400;
+}
+
+#footer-logo{
+    width: 100%;
+}
+
+input{
+    background-color: #3273FA;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #020912;
+    padding: 20px;
+}
+
+input::placeholder{
+    color: white;
+}
+
+form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+#button2{
+    background: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 80px;
+    color: #3273FA;
+    cursor: pointer;
+    margin-left: 2rem;
+}
+#twitter-logo{
+    width: 32px;
+    margin-top: 2rem;
+}
+
+@media screen and (max-width: 1142px) {
+    .app{
+        padding: 0 20px;
+    }
+    .cards {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
