@@ -1,7 +1,7 @@
 const prod = {
     url: {
-     API_URL: 'https://lime-stingray-sari.cyclic.app/newsletter',
-     API_URL_GET: 'https://lime-stingray-sari.cyclic.app/newsletter-total',
+     API_URL: 'https://crazy-fedora-moth.cyclic.app/newsletter',
+     API_URL_GET: 'https://crazy-fedora-moth.cyclic.app/newsletter-total',
     }
     }
 
